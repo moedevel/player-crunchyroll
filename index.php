@@ -48,6 +48,7 @@ header_remove('x-powered-by');
 </div>
 <div id="player"></div>
 <script src="/assets/javascript/jwplayer.min.js"></script>
+<script src="/assets/javascript/function-bruh.js"></script>
 <script type="text/javascript">var _0x1979=['toLowerCase','fromCharCode','charCodeAt','replace'];(function(_0x4c4dd8,_0x1979df){var _0x3747c0=function(_0x569f24){while(--_0x569f24){_0x4c4dd8['push'](_0x4c4dd8['shift']());}};_0x3747c0(++_0x1979df);}(_0x1979,0x1c0));var _0x3747=function(_0x4c4dd8,_0x1979df){_0x4c4dd8=_0x4c4dd8-0x0;var _0x3747c0=_0x1979[_0x4c4dd8];return _0x3747c0;};function burl(_0x569f24){var _0x4a9e7a=_0x3747;return(_0x569f24+'')[_0x4a9e7a('0x3')](/[a-z]/gi,function(_0x1f385a){var _0x3e512f=_0x4a9e7a;return String[_0x3e512f('0x1')](_0x1f385a[_0x3e512f('0x2')](0x0)+('n'>_0x1f385a[_0x3e512f('0x0')]()?0xd:-0xd));});};video_config = '<?= base64_encode(str_rot13(json_encode($array)));?>';var video_id = <?= $id ?>;var thumb = '<?= $array['thumbnail']['url']?>';var lang = '<?= $lang ?>';</script>
 <script type="text/javascript">
 <?= 'Bruh.Run("' . $encode . '");'; ?>
