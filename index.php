@@ -46,6 +46,39 @@ header_remove('x-powered-by');
 <div class="loading_text">Your video will start in a moment (^-^)<span class="cut_line"></span>Waiting for stream data ...</div>
 </div>
 </div>
+<div class="modal" style="transform: translate3d(0px, 0px, 0px);visibility: hidden;">
+		   <button class="close-modal">×</button>
+		   <div class="download-item">
+		   	<span class="partdditem hdlabel not-copyable"><sup>Full HD</sup></span>
+		   	<span class="partdditem quality not-copyable">1080p</span>
+		   	<span id="1080p_down_size" class="partdditem size not-copyable">0 MB</span>
+		   	<a id="1080p_down_url" class="partdditem down-icon" href="javascript:void(0);" target="_top" download></a>
+		   </div>
+		   <div class="download-item">
+		   	<span class="partdditem hdlabel not-copyable"><sup>HD</sup></span>
+		   	<span class="partdditem quality not-copyable">720p</span>
+		   	<span id="720p_down_size" class="partdditem size not-copyable">0 MB</span>
+		   	<a id="720p_down_url" class="partdditem down-icon" href="javascript:void(0);" target="_top" download></a>
+		   </div>
+		   <div class="download-item">
+		   	<span class="partdditem hdlabel not-copyable"><sup></sup></span>
+		   	<span class="partdditem quality not-copyable">480p</span>
+		   	<span  id="480p_down_size" class="partdditem size not-copyable">0 MB</span>
+		   	<a id="480p_down_url" class="partdditem down-icon" href="javascript:void(0);" target="_top" download></a>
+		   </div>
+		   <div class="download-item">
+		   	<span class="partdditem hdlabel not-copyable"><sup></sup></span>
+		   	<span class="partdditem quality not-copyable">360p</span>
+		   	<span id="360p_down_size" class="partdditem size not-copyable">0 MB</span>
+		   	<a id="360p_down_url" class="partdditem down-icon" href="javascript:void(0);" target="_top" download></a>
+		   </div>
+		   <div class="download-item">
+		   	<span class="partdditem hdlabel not-copyable"><sup></sup></span>
+		   	<span class="partdditem quality not-copyable">240p</span>
+		   	<span id="240p_down_size" class="partdditem size not-copyable">0 MB</span>
+		   	<a id="240p_down_url" class="partdditem down-icon" href="javascript:void(0);" target="_top" download></a>
+		   </div>
+	</div>
 <div id="player"></div>
 <script src="/assets/javascript/jwplayer.min.js"></script>
 <script src="/assets/javascript/function-bruh.js"></script>
